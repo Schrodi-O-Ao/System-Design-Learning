@@ -1,0 +1,10 @@
+# Everything for Part 1.   Install with:  pip install -r requirements.txt
+fastapi[standard]>=0.115    # FastAPI + uvicorn (the server) + python-multipart (file uploads) + httpx (HTTP client)
+redis>=5.0                  # optional: only used by the Redis backend of the rate limiter
+
+# fastapi
+# uvicorn[standard]
+sqlalchemy
+pydantic
+httpx
+redis

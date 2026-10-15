@@ -7,7 +7,7 @@ import time
 from crypto import create_code
 from database import DB_PATH
 from cache import cache
-RESERVED = {"docs", "redoc", "health", "links"}    # aliases that would clash with real routes                                   # seconds a cached link may be reused
+RESERVED = {"docs", "redoc", "health", "links"}    # aliases that would clash with real routes
 CACHE_TTL = 300     # seconds a cached link may be reused
 app = FastAPI(title="URL shortener")
 

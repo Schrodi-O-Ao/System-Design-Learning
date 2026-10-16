@@ -7,4 +7,4 @@ redis>=5.0                  # optional: only used by the Redis backend of the ra
 sqlalchemy
 pydantic
 httpx
-redis
+redis       
